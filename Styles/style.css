@@ -1,0 +1,228 @@
+.quicksand-font{
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 100px 20px 100px;
+}
+
+
+.div-logo{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    font-size: 32px;
+}
+.head-ul{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    font-size: 25px;
+    margin: auto;
+}
+#hm{
+    color: rgba(254, 163, 1, 1);
+}
+#abt{
+    color: rgba(1, 172, 253, 1);
+}
+#fact{
+    color: rgba(5, 212, 223, 1);
+}
+#adm{
+    color: rgba(93, 88, 239, 1);
+}
+.btn-1{
+    font-size: 20px;
+    padding: 10px 40px;
+    background-color: rgba(254, 163, 1, 1);
+    border: none;
+    color: white;
+    border-radius: 12px;
+}
+.sec-1{
+    margin: 10px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-1{
+    font-size: 56px;
+    width: 600px;
+}
+.spn-1{
+    color: rgba(254, 163, 1, 1);
+}
+.spn-2{
+  color: rgba(1, 172, 253, 1);
+}
+.banner-2{
+    font-size: 20px;
+    color: rgba(17, 17, 17, 1);
+    width: 550px;
+    margin-top: 20px;
+}
+.btn-2{
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    padding: 10px 40px;
+    border-radius: 12px;
+    margin-top: 30px;
+    border: none;
+}
+.sec-2{
+    background-image:url(./bg.png) ;
+    
+}
+.h-2{
+    font-size: 46px;
+    margin: 20px 500px;
+}
+.card-title{
+    font-size: 25px;
+}
+.card-desp{
+    color: rgba(128, 128, 128, 1);
+}
+.cards-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 100px 20px 100px;
+}
+.cards-1-kin, .cards-1-es, .cards-1-middle{
+    height: 500px;
+    width: 300px;
+   display: grid;
+   place-items: center;
+
+}
+.card-button{
+    font-size: 15px;
+    border: none;
+}
+.cb-1{
+color: rgba(100, 200, 255, 1);
+}
+.cb-2{
+    color: rgba(240, 170, 0, 1);
+}
+.cb-3{
+color: rgba(135, 0, 255, 1);
+}
+.cards-1-kin{
+    background: linear-gradient(to bottom, rgba(222, 245, 255, 1),white,white,white,white,white);
+    border-radius: 12px;
+}
+.cards-1-es{
+background: linear-gradient(to bottom,rgba(255, 244, 220, 1),white);
+border-radius: 12px;
+}
+.cards-1-middle{
+    background: linear-gradient(to bottom,rgba(242, 232, 255, 1),white);
+    border-radius: 12px;
+}
+
+.sec-3{
+    background-image: url(./bg.png);
+    background: linear-gradient(to top,rgba(254, 163, 1, 0.3),white,white );
+    
+    
+}
+.sec-3-div{
+    margin: 10px 100px 40px 100px;
+    background-image: url(./bg.png);
+    
+}
+.h-3{
+    font-size: 46px;
+    text-align: center;
+}
+.our-cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    
+
+}
+.our-cards-1{
+    grid-column: 1/ 2 span;
+    grid-row: 1/ 2 span;
+    height: auto;
+}
+.our-cards-3, .our-cards-4, .our-cards-5, .our-cards-2, .ig{
+    border-radius: 10px; 
+    background-color: white; 
+    display: grid;
+    place-items: center; 
+
+}
+.botn-1, .botn-2, .botn-3, .botn-4, .botn-5{
+    font-size: 16px;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 32px;
+    margin: -40px 100px 20px 40px;
+    color: white;
+}
+.botn-1{
+background-color: rgba(60, 216, 232, 1);
+}
+.botn-2{
+    background-color: rgba(149, 178, 38, 1)
+}
+.botn-3{
+background-color: rgba(93, 88, 240, 1);
+}
+.botn-4{
+background-color: rgba(149, 178, 38, 1);
+}
+.botn-5{
+background-color: rgba(149, 178, 38, 1);
+}
+.lst-btn{
+  font-size: 20px;
+  padding: 20px 80px;
+  color: white;
+  background-color: black;
+  border-radius: 12px;
+}
+.div-lst-btn{
+    text-align: center;
+}
+.fot-sdiv-2{
+    font-size: 40px;
+}
+.fot-sdiv{
+    display: flex;
+}
+#fot-p{
+    width: 400px;
+}
+.fot-head{
+    font-size: 24px;
+}
+.foot-ul{
+    list-style: none; 
+    font-size: 20px;
+}
+.marg-li{
+    margin: 20px 0px 20px 0px;
+}
+footer{
+    background-color: rgba(1, 172, 253, 1);
+}
+.footer{
+    margin: 10px 100px 20px 100px;
+    display: flex;
+    justify-content: space-between;
+   
+    color: white;
+}
