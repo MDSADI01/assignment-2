@@ -218,9 +218,10 @@ background-color: rgba(149, 178, 38, 1);
 }
 footer{
     background-color: rgba(1, 172, 253, 1);
+    margin-top: 0px;
 }
 .footer{
-    margin: 10px 100px 20px 100px;
+    margin: 0px 100px 20px 100px;
     display: flex;
     justify-content: space-between;
    
